@@ -4,8 +4,11 @@
   "main": "dist/bundle.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist/",
-    "package.json"
+    "*.js",
+    "*.js.map",
+    "*.d.ts",
+    "package.json",
+    "!example/**"
   ],
   "devDependencies": {
     "@tsconfig/svelte": "^3.0.0",
